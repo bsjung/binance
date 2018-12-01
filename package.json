@@ -1,8 +1,15 @@
 {
+<<<<<<< HEAD
   "name": "upbit-api",
   "version": "1.0.0",
   "description": "node.js wrapper for the Upbit REST and WebSocket APIs",
   "main": "./lib/upbit.js",
+=======
+  "name": "binance-api",
+  "version": "1.0.0",
+  "description": "node.js wrapper for the Binance REST and WebSocket APIs",
+  "main": "./lib/binance.js",
+>>>>>>> 8e008d41d49aafe84bb800c1f9b15212c1a00ff9
   "scripts": {
     "test": "mocha",
     "cover": "istanbul cover _mocha",

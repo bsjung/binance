@@ -24,13 +24,21 @@
   },
   "homepage": "https://github.com/tiagosiebler/TriangularArbitrage#readme",
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "binance-api": "file:..",
+>>>>>>> 8e008d41d49aafe84bb800c1f9b15212c1a00ff9
     "clui": "^0.3.6",
     "fs": "0.0.1-security",
     "mongodb": "^3.0.1",
     "node-env-file": "^0.1.8",
+<<<<<<< HEAD
     "request": "^2.88.0",
     "sosa_mongo": "^1.0.3",
     "upbit-api": "file:..",
+=======
+    "sosa_mongo": "^1.0.3",
+>>>>>>> 8e008d41d49aafe84bb800c1f9b15212c1a00ff9
     "winston": "^3.0.0-rc1"
   },
   "devDependencies": {
