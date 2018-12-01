@@ -3,12 +3,12 @@ const api = require('binance-api');
 var env = require('node-env-file');
 env(__dirname + '/binance.key');
 
-console.log('key ', process.env.binance_key);
-console.log('secret ', process.env.binance_secret);
+console.log('key ', process.env.key);
+console.log('secret ', process.env.secret);
 
 const binanceRest = new api.BinanceRest({
-  key: process.env.binance_key, // Get this from your account on binance.com
-  secret: process.env.binance_secret, // Same for this
+  key: process.env.key, // Get this from your account on binance.com
+  secret: process.env.secret, // Same for this
   timeout: 15000, // Optional, defaults to 15000, is the request time out in milliseconds
   recvWindow: 10000, // Optional, defaults to 5000, increase if you're getting timestamp errors
   disableBeautification: false
